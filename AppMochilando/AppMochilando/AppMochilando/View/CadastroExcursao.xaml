@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMochilando.View.CadastroExcursao">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nova"
+                     Order="Primary"
+                     Command="{Binding NovaExcursao}"/>
+        <ToolbarItem Text="Salvar"
+                     Order="Primary"
+                     Command="{Binding SalvarExcursao}"/>
+    </ContentPage.ToolbarItems>
+    
+    
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="Nome"/>
+            <Entry Text="{Binding Nome}" Placeholder="Digite o nome"/>
+            
+            <Label Text="Origem"/>
+            <Entry Text="{Binding Origem}" Placeholder="De"/>
+            
+            <Label Text="Destino"/>
+                <Entry Text="{Binding Destino}" Placeholder="Para"/>
+            
+            <Label Text="Data"/>
+            <DatePicker Date="{Binding Data}" Format="dd/MM/yyyy"/>
+            
+            <Label Text="Valor"/>
+            <Entry Text="{Binding Valor}" Keyboard="Numeric" Placeholder="R$"/>
+            
+            <Label Text="Descricao"/>
+            <Entry Text="{Binding Descricao}" Placeholder="Digite uma breve descrição"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nzfgL+76C8GaNE4iJmiZs2rdr/781saDZuQNmWlP/oawuBevxaZubktJNyjEz9YFPAkFjnBCvIwuAXeBL1o01w==",
+  "dgSpecHash": "c78ElJbV8EOEU6dXKicknJ+dVwht0YtXN8huGJ0nItN7AaC2t4OAbybeSrHCVgdcIKsx3Yk7WF8ZSO9TXJ1MAg==",
   "success": true,
   "projectFilePath": "C:\\Mochilando\\AppMochilando\\AppMochilando\\AppMochilando\\AppMochilando.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,11 @@
     "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\j.ferraz.de.abreu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",

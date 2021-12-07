@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMochilando.View.ListaExcursao"
+             x:Name="Pagina">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Atualizar"
+                     Order="Primary"
+                     Command="{Binding AtualizarLista}"/>
+        <ToolbarItem Text="Novo"
+                     Order="Primary"
+                     Routing.Route="Excursoes"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <SearchBar Placeholder="Buscar" Text="{Binding ParametroBusca}"/>
+                <Button Text="Buscar" Command="{Binding Buscar}"/>
+            </StackLayout>
+            <RefreshView IsRefreshing="{Binding EstaAtualizando, Mode=OneWay}"
+                         Command="{Binding EstaAtualizando}">
+                <ListView ItemsSource="{Binding ListaExcursao}">
+                    <ListView.Header>
+                        <Grid RowDefinitions="Auto"
+                              ColumnDefinitions="*,*,*,*,*">
+                            <Label Grid.Row="0" Grid.Column="0" Text="Id"/>
+                            <Label Grid.Row="0" Grid.Column="1" Text="Nome"/>
+                            <Label Grid.Row="0" Grid.Column="2" Text="Origem"/>
+                            <Label Grid.Row="0" Grid.Column="3" Text="Destino"/>
+                            <Label Grid.Row="0" Grid.Column="4" Text="Data"/>
+                        </Grid>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Text="Detalhes"
+                                              Command="{Binding Source={x:Reference Pagina},Path=BindingContext.DetalhesExcursao }"
+                                              CommandParameter="{Binding Id}"/>
+                                    <MenuItem Text="Excluir"
+                                              Command="{Binding Source={x:Reference Pagina},Path=BindingContext.Remover }"
+                                              CommandParameter="{Binding Id}"/>
+                                </ViewCell.ContextActions>
+                                <Grid RowDefinitions="Auto"
+                                      ColumnDefinitions="*,*,*,*,*">
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding Id}"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding Nome}"/>
+                                    <Label Grid.Row="0" Grid.Column="2" Text="{Binding Origem}"/>
+                                    <Label Grid.Row="0" Grid.Column="3" Text="{Binding Destino}"/>
+                                    <Label Grid.Row="0" Grid.Column="4" Text="{Binding Data, StringFormat='{}{0:dd/MM/yyyy}'}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

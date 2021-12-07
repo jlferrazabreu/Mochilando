@@ -1,0 +1,15 @@
+C:\Mochilando\AppMochilando\AppMochilando\bin\Debug\netstandard2.0\AppMochilando.deps.json
+C:\Mochilando\AppMochilando\AppMochilando\bin\Debug\netstandard2.0\AppMochilando.dll
+C:\Mochilando\AppMochilando\AppMochilando\bin\Debug\netstandard2.0\ref\AppMochilando.dll
+C:\Mochilando\AppMochilando\AppMochilando\bin\Debug\netstandard2.0\AppMochilando.pdb
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.csproj.AssemblyReference.cache
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.AssemblyInfoInputs.cache
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.AssemblyInfo.cs
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.csproj.CoreCompileInputs.cache
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.dll
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\ref\AppMochilando.dll
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.pdb
+C:\Mochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\View\LoginPage.xaml.g.cs

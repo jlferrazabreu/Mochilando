@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMochilando.View.LoginPage">
+    <ScrollView>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+            <Image Source="login"></Image>
+            <Label Text="Mochilando" HorizontalOptions="Center" FontSize="Large"></Label>
+            <Entry x:Name="txtEmail" Placeholder="Informe o email" TextColor="Black"></Entry>
+            <Entry x:Name="txtName" Placeholder="Informe a senha" TextColor="Black" IsPassword="True"></Entry>
+            <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked" ></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

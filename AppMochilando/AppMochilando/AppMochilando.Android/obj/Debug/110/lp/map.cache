@@ -1,5 +1,6 @@
 FormsViewGroup.dll
 Plugin.Connectivity.dll
+SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.Annotation.Experimental.dll
