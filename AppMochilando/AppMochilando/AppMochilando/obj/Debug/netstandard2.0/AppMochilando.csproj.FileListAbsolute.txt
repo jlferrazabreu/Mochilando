@@ -30,3 +30,4 @@ C:\Mochilando\AppMochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0
 C:\Mochilando\AppMochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.dll
 C:\Mochilando\AppMochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\ref\AppMochilando.dll
 C:\Mochilando\AppMochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.pdb
+C:\Mochilando\AppMochilando\AppMochilando\AppMochilando\obj\Debug\netstandard2.0\AppMochilando.csproj.AssemblyReference.cache

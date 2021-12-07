@@ -35,7 +35,7 @@ namespace AppMochilando.View
                     listaCliente = await ApiService.ObterCliente();
                     var cliente = listaCliente.Where(c => c.Email.ToLower() == txtEmail.Text.ToLower() && c.Senha.ToLower() == txtSenha.Text.ToLower()).ToList();
                     if (cliente.Count > 0)
-                        await Navigation.PushAsync(new CadastroExcursao());
+                        await Navigation.PushAsync(new ListaExcursao());
                     else
                         await DisplayAlert("Erro", "Login ou senha errado.", "OK");
                 }
