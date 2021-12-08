@@ -4,18 +4,16 @@
              xmlns:Views="clr-namespace:AppMochilando.View"
              x:Class="AppMochilando.MainPage">
     <TabBar>
+        <Tab Title="Login" Route="LoginPage">
+            <ShellContent>
+                <Views:LoginPage Title="Login"/>
+            </ShellContent>
+        </Tab>
         <Tab Title="Lista de Clientes" Route="ListaExcursao">
             <ShellContent>
                 <Views:ListaExcursao Title="Lista de Clientes"/>
             </ShellContent>
         </Tab>
-        
-        <Tab Title="Login" Route="LoginPage">
-            <ShellContent>
-                <Views:LoginPage Title="Login"/>
-            </ShellContent>            
-        </Tab>
-        
         <Tab Title="Cadastro de Excursões" Route="CadastroExcursao">
             <ShellContent>
                 <Views:CadastroExcursao Title="Cadastro de Excursões"/>

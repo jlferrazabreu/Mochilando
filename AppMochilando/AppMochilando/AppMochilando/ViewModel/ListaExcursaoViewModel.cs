@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Text;
 using System.Windows.Input;
 using AppMochilando.Model;
+using AppMochilando.View;
 using Xamarin.Forms;
 
 namespace AppMochilando.ViewModel
@@ -35,6 +36,18 @@ namespace AppMochilando.ViewModel
             set => ListaExcursao = value;
         }
 
+        public ICommand CadastroExcursao
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    await Shell.Current.Navigation.PushAsync(new CadastroExcursao());
+                });
+
+            }
+        }
+
         public ICommand AtualizarLista
         {
             get
@@ -61,8 +74,6 @@ namespace AppMochilando.ViewModel
                     {
                         EstaAtualizando = false;
                     }
-
-;
                 });
             }
         }

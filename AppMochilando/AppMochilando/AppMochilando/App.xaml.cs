@@ -24,12 +24,7 @@ namespace AppMochilando
         public App()
         {
             InitializeComponent();
-#if DEBUG
-            HotReloader.Current.Run(this);
-
-#endif
-
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
