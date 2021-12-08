@@ -9,6 +9,7 @@
             <Entry x:Name="txtEmail" Placeholder="Informe o email" TextColor="Black"></Entry>
             <Entry x:Name="txtSenha" Placeholder="Informe a senha" TextColor="Black" IsPassword="True"></Entry>
             <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked" ></Button>
+            <Button x:Name="btnCadastrar" Text="cadastrar-se" Clicked="btnLogin_Clicked" ></Button>
         </StackLayout>
     </ScrollView>
 </ContentPage>

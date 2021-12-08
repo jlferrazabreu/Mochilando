@@ -5,6 +5,7 @@ using System.Windows.Input;
 using Xamarin.Forms;
 using System;
 using AppMochilando.Model;
+using AppMochilando.View;
 
 namespace AppMochilando.ViewModel
 {
@@ -138,7 +139,7 @@ namespace AppMochilando.ViewModel
 
                     await Application.Current.MainPage.DisplayAlert("Sucesso", "Excusão Salva", "Ok");
 
-                    await Shell.Current.GoToAsync("//Excursoes");
+                    await Shell.Current.Navigation.PushAsync(new ListaExcursao());
                 }
                 catch (Exception ex)
                 {
